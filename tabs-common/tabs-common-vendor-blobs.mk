@@ -23,6 +23,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/tabs-common/proprietary/lib/libGLES_trace.so:system/lib/libGLES_trace.so
 
+# OMX from MM
+PRODUCT_COPY_FILES += \
+    vendor/samsung/tabs-common/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
+    vendor/samsung/tabs-common/proprietary/lib/omx/libOMX.Exynos.AVC.Encode.so:system/lib/omx/libOMX.Exynos.AVC.Encode.so
+
 # Mobicore
 PRODUCT_COPY_FILES += \
     vendor/samsung/tabs-common/proprietary/bin/cs:system/bin/cs \
